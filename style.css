@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D92F4;
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    /* padding: 2px 2px 2px 2px; */
+    cursor: pointer;
+}
+
+
+.container {
+    margin-top: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+video {
+    height: 250vh;
+    width: 250vw;
+    position: fixed;
+    filter: blur(2px);
+}
+
+.fa-regular {
+    font-size: 50px;
+
+}
+
+
+.login-page {
+    height: 500px;
+    width: 400px;
+    background-color: #4CC9FE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    /* background-image: url(chris-ried-ieic5Tq8YMk-unsplash.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+
+
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: #2f00ff;
+}
+
+input {
+    height: 5vh;
+    width: 19vw;
+    border: none;
+    border-radius: 10px;
+    padding: 1px 1px 1px 5px;
+    background-color: #C9E6F0;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 5);
+
+}
+
+button {
+    height: 5vh;
+    width: 15vw;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 5);
+
+}
+
+button:hover {
+    background-color: #4C1F7A;
+    color: white;
+
+}

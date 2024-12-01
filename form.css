@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #B7E0FF;
+   height: 95vh;
+   padding: 25px;
+}
