@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistration</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <main>
+        <a href="index.html"> <i class="fa-solid fa-arrow-left"></i> </a>
+        <h1>Registration From</h1>
+        <br>
+        <form>
+            <div>
+                <h2>
+                    Enter your details
+                </h2>
+                <div id="details">
+                    Name: <input type="text" placeholder="Name in Capital">
+                    Sex: <select name="sex">
+                        <option value="select"> Select</option>
+                        <option value="Male"> Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Transgender">Transgender</option>
+                    </select>
+                    Enter your DOB(Date Of Birth): <input type="text" placeholder="D/O/B"><br><br>
+                    Father's Name: <input type="text" placeholder="Father's name">
+                    Mother's Name: <input type="text" placeholder="Mother's name">
+                    Guardian Id: <select>
+                        <option value="Select">Select</option>
+                        <option value="Aadhar Card">Aadhar Card</option>
+                        <option value="Voter id">Voter id</option>
+                        <option value="Driving Licens">Driving Licens</option>
+                        <option value="Pan card">Pan Card</option>
+                        <input type="text" placeholder="Id proof">
+                    </select>
+                </div>
+            </div>
+            <div id="Address">
+                <h2>Address</h2>
+                State: <select>
+                    <option value="Select">Select</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Maharastra">Maharastra</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+                District: <select>
+                    <option value="Select">Select</option>
+                    <option value="Medinipur">Medinipur</option>
+                    <option value="Paschim Medinipur">Paschim Medinipur</option>
+                    <option value="Purba Medinipur">Purba Medinipur</option>
+                    <option value="Bankura">Bankura</option>
+                    <option value="Puruliya">Puruliya</option>
+                </select>
+                Polish Station: <input type="text" placeholder="P.S">
+            </div>
+            <div id="education">
+                <h2>Education details</h2>
+                <b>Select your class:-</b>
+                <br>
+
+                <input type="radio" id="classChoice1" name="class" value="classXI" />
+                <label for="contactChoice1">Class XI</label>
+                <br />
+
+                <input type="radio" id="classChoice2" name="class" value="classXII" />
+                <label for="contactChoice2">ClassXII</label>
+                <br />
+
+                <b>Select your Subject:-</b><br>
+                <label for="1">
+                    <input type="checkbox" value="Bengali" name="subject" id="1">Bengali
+                </label><br>
+                <label for="2">
+                    <input type="checkbox" value="English" name="subject" id="2">English
+                </label><br>
+                <label for="3">
+                    <input type="checkbox" value="Mathematics" name="subject" id="3">Mathematics
+                </label><br>
+                <label for="4">
+                    <input type="checkbox" value="Physics" name="subject" id="4">Physics
+                </label><br>
+                <label for="5">
+                    <input type="checkbox" value="Chemistry" name="subject" id="5">Chemistry
+                </label><br>
+                <label for="6">
+                    <input type="checkbox" value="Biology" name="subject" id="6">Biology
+                </label><br>
+                <label for="7">
+                    <input type="checkbox" value="Geography" name="subject" id="7">Geography
+                </label><br>
+                <label for="8">
+                    <input type="checkbox" value="History" name="subject" id="8">History
+                </label><br>
+                <label for="1">
+                    <input type="checkbox" value="Education" name="subject" id="1">Education
+                </label><br>
+            </div>
+            <div id="contact">
+                <h2>Contact Details</h2>
+                Email: <input type="text" placeholder="valid email">
+                Phone no:
+                <input type="text" placeholder="Ph No:">
+            </div>
+            <div id="feedback">
+                <h2>Feedback Form</h2>
+                <textarea name="feedback" id="form" cols="30" rows="5"
+                    placeholder="Give your valuable feedback "></textarea>
+            </div>
+            <input type="submit" placeholder="submit">
+
+            <br>
+            <br>
+            <br>
+        </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>
